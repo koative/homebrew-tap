@@ -1,18 +1,20 @@
 # Koative Tap
 
-## How do I install these formulae?
+Homebrew casks for [Koative](https://github.com/koative)'s open-source Mac apps.
 
-`brew install koative/tap/<formula>`
+```sh
+brew install --cask koative/tap/openbucket
+```
 
-Or `brew tap koative/tap` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
+Or `brew tap koative/tap` and then `brew install --cask openbucket`. In a `Brewfile`:
 
 ```ruby
 tap "koative/tap"
-brew "<formula>"
+cask "openbucket"
 ```
 
-## Documentation
+| Cask | App |
+| --- | --- |
+| `openbucket` | [OpenBucket](https://openbucket.koative.com), a native S3 browser |
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+A daily workflow opens a pull request when a new release appears.
