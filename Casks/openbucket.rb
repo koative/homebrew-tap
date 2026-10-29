@@ -1,6 +1,6 @@
 cask "openbucket" do
-  version "0.2.1"
-  sha256 "909e51bd4a8c2866926410fd6ca9a6f386025c696fb5f4f3d07e90176d826362"
+  version "0.2.2"
+  sha256 "37f53d25b3065b5c708836641999e20147d77938404230e8de105eaccfc53097"
 
   url "https://github.com/koative/openbucket/releases/download/v#{version}/OpenBucket-macOS.dmg"
   name "OpenBucket"
