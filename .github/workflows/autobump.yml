@@ -10,6 +10,7 @@ on:
   schedule:
     # Every day at 15:25 UTC
     - cron: 25 15 * * *
+  workflow_dispatch:
 
 permissions: {}
 
