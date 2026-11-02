@@ -4,7 +4,6 @@ cask "bucketdeck" do
 
   url "https://github.com/koative/bucketdeck/releases/download/v#{version}/Bucketdeck-macOS.dmg"
   name "Bucketdeck"
-  name "OpenBucket"
   desc "Native S3 browser"
   homepage "https://bucketdeck.com/"
 
@@ -17,7 +16,7 @@ cask "bucketdeck" do
 
   app "Bucketdeck.app"
 
-  # The app still keeps its data under the names it had as OpenBucket.
+  # The app keeps its data under its earlier identifiers until a later release moves it.
   zap trash: [
     "~/Library/Application Support/OpenBucket",
     "~/Library/Caches/dev.openbucket.app",

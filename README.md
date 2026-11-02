@@ -15,6 +15,6 @@ cask "bucketdeck"
 
 | Cask | App |
 | --- | --- |
-| `bucketdeck` | [Bucketdeck](https://bucketdeck.com), a native S3 browser (formerly OpenBucket; the `openbucket` cask now installs it) |
+| `bucketdeck` | [Bucketdeck](https://bucketdeck.com), a native S3 browser |
 
 A daily workflow opens a pull request when a new release appears.
