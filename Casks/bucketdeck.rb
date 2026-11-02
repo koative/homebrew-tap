@@ -1,11 +1,12 @@
-cask "openbucket" do
-  version "0.2.3"
-  sha256 "9d52b0d4b470cd4081e37babd26ba4e8ff3ec34bc0f2d947633c037aaf4f0d87"
+cask "bucketdeck" do
+  version "0.3.0"
+  sha256 "1092b14da22b1733c65c606e95a2bb9a1b4209de9c7380dd3e1a15fb5d2e171d"
 
-  url "https://github.com/koative/openbucket/releases/download/v#{version}/OpenBucket-macOS.dmg"
+  url "https://github.com/koative/bucketdeck/releases/download/v#{version}/Bucketdeck-macOS.dmg"
+  name "Bucketdeck"
   name "OpenBucket"
   desc "Native S3 browser"
-  homepage "https://openbucket.koative.com/"
+  homepage "https://bucketdeck.com/"
 
   livecheck do
     url :url
@@ -14,8 +15,9 @@ cask "openbucket" do
 
   depends_on macos: :tahoe
 
-  app "OpenBucket.app"
+  app "Bucketdeck.app"
 
+  # The app still keeps its data under the names it had as OpenBucket.
   zap trash: [
     "~/Library/Application Support/OpenBucket",
     "~/Library/Caches/dev.openbucket.app",

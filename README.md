@@ -3,18 +3,18 @@
 Homebrew casks for [Koative](https://github.com/koative)'s open-source Mac apps.
 
 ```sh
-brew install --cask koative/tap/openbucket
+brew install --cask koative/tap/bucketdeck
 ```
 
-Or `brew tap koative/tap` and then `brew install --cask openbucket`. In a `Brewfile`:
+Or `brew tap koative/tap` and then `brew install --cask bucketdeck`. In a `Brewfile`:
 
 ```ruby
 tap "koative/tap"
-cask "openbucket"
+cask "bucketdeck"
 ```
 
 | Cask | App |
 | --- | --- |
-| `openbucket` | [OpenBucket](https://openbucket.koative.com), a native S3 browser |
+| `bucketdeck` | [Bucketdeck](https://bucketdeck.com), a native S3 browser (formerly OpenBucket; the `openbucket` cask now installs it) |
 
 A daily workflow opens a pull request when a new release appears.
