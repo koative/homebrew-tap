@@ -1,6 +1,6 @@
 cask "bucketdeck" do
-  version "0.3.0"
-  sha256 "1092b14da22b1733c65c606e95a2bb9a1b4209de9c7380dd3e1a15fb5d2e171d"
+  version "0.3.1"
+  sha256 "0c9050cffb65634ad4aeb65245238ac2e86d7be361679dc7bbb4d12cfc4a5eb4"
 
   url "https://github.com/koative/bucketdeck/releases/download/v#{version}/Bucketdeck-macOS.dmg"
   name "Bucketdeck"
